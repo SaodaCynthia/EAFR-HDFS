@@ -6,7 +6,7 @@ Steps:
 
 1. Install hadoop and replace the hadoop-common-2.8.1.jar and hadoop-hdfs-2.8.1.jar with the new modified jar in the hadoop-2.8.1-src.
 
-3. enagle hdfs audit loging from the configuration file and alos specify the location of warm and cold servers(hot by deafult).
+3. Enable hdfs audit logging from the configuration file and alos specify the location of warm and cold servers(hot by deafult).
 
 2. To create a number of files in HDFS according to the size specified in trace data, export the TestEAFR to a jar file and run the class named fileStore.java.
 
