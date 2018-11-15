@@ -4,7 +4,7 @@ Java 1.8.0_161
 
 Steps:
 
-1. Install hadoop and replace the hadoop-common-2.8.1.jar and hadoop-hdfs-2.8.1.jar with the new modified jar in the hadoop-2.8.1-src(EAFR-HDFS in shared drive).
+1. Install hadoop and replace the hadoop-common-2.8.1.jar and hadoop-hdfs-2.8.1.jar with the new modified jar in the hadoop-2.8.1-src.
 
 3. enagle hdfs audit loging from the configuration file and alos specify the location of warm and cold servers(hot by deafult).
 
