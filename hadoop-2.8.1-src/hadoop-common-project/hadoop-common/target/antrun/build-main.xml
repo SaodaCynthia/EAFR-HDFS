@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <delete dir="/home/cynthia/Hadoop/hadoop-2.8.1-src/hadoop-common-project/hadoop-common/target/test/data"/>
+  <mkdir dir="/home/cynthia/Hadoop/hadoop-2.8.1-src/hadoop-common-project/hadoop-common/target/test/data"/>
+  <mkdir dir="/home/cynthia/Hadoop/hadoop-2.8.1-src/hadoop-common-project/hadoop-common/target/log"/>
+  <copy toDir="/home/cynthia/Hadoop/hadoop-2.8.1-src/hadoop-common-project/hadoop-common/target/test-classes">
+    <fileset dir="/home/cynthia/Hadoop/hadoop-2.8.1-src/hadoop-common-project/hadoop-common/src/main/conf"/>
+  </copy>
+</target>
+</project>
